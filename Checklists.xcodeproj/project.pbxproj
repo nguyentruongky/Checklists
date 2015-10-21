@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		4270D6721B8E7532003FEAE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4270D6711B8E7532003FEAE1 /* AppDelegate.swift */; };
-		4270D6741B8E7532003FEAE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4270D6731B8E7532003FEAE1 /* ViewController.swift */; };
 		4270D6771B8E7532003FEAE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4270D6751B8E7532003FEAE1 /* Main.storyboard */; };
 		4270D6791B8E7532003FEAE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4270D6781B8E7532003FEAE1 /* Images.xcassets */; };
 		4270D67C1B8E7532003FEAE1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4270D67A1B8E7532003FEAE1 /* LaunchScreen.xib */; };
 		4270D6881B8E7532003FEAE1 /* ChecklistsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4270D6871B8E7532003FEAE1 /* ChecklistsTests.swift */; };
+		4270D6941B8E75A2003FEAE1 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4270D6931B8E75A2003FEAE1 /* ChecklistViewController.swift */; };
+		4270D6991B8E7782003FEAE1 /* CheckItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4270D6981B8E7782003FEAE1 /* CheckItem.swift */; };
+		4270D69B1B8E778E003FEAE1 /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4270D69A1B8E778E003FEAE1 /* AppConstant.swift */; };
+		4270D69F1B8EF246003FEAE1 /* CheckItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4270D69E1B8EF246003FEAE1 /* CheckItemViewController.swift */; };
+		42DA0D601B944C020093F425 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DA0D5F1B944C020093F425 /* ListItem.swift */; };
+		42DA0D641B944D130093F425 /* ListItemCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DA0D631B944D130093F425 /* ListItemCollectionViewController.swift */; };
+		42DA0D661B9452840093F425 /* ListItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DA0D651B9452840093F425 /* ListItemViewController.swift */; };
+		42DA0D6A1B94636F0093F425 /* IconPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DA0D691B94636F0093F425 /* IconPickerViewController.swift */; };
+		42DA0D711B9587830093F425 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DA0D701B9587830093F425 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +37,21 @@
 		4270D66C1B8E7532003FEAE1 /* Checklists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4270D6701B8E7532003FEAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4270D6711B8E7532003FEAE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4270D6731B8E7532003FEAE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4270D6761B8E7532003FEAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4270D6781B8E7532003FEAE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4270D67B1B8E7532003FEAE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4270D6811B8E7532003FEAE1 /* ChecklistsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChecklistsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4270D6861B8E7532003FEAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4270D6871B8E7532003FEAE1 /* ChecklistsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistsTests.swift; sourceTree = "<group>"; };
+		4270D6931B8E75A2003FEAE1 /* ChecklistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
+		4270D6981B8E7782003FEAE1 /* CheckItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckItem.swift; sourceTree = "<group>"; };
+		4270D69A1B8E778E003FEAE1 /* AppConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		4270D69E1B8EF246003FEAE1 /* CheckItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckItemViewController.swift; sourceTree = "<group>"; };
+		42DA0D5F1B944C020093F425 /* ListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		42DA0D631B944D130093F425 /* ListItemCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemCollectionViewController.swift; sourceTree = "<group>"; };
+		42DA0D651B9452840093F425 /* ListItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListItemViewController.swift; sourceTree = "<group>"; };
+		42DA0D691B94636F0093F425 /* IconPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconPickerViewController.swift; sourceTree = "<group>"; };
+		42DA0D701B9587830093F425 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +93,11 @@
 		4270D66E1B8E7532003FEAE1 /* Checklists */ = {
 			isa = PBXGroup;
 			children = (
+				42DA0D6B1B9562F10093F425 /* Controller */,
+				4270D6971B8E7776003FEAE1 /* Model */,
+				4270D6961B8E7768003FEAE1 /* View */,
+				4270D69A1B8E778E003FEAE1 /* AppConstant.swift */,
 				4270D6711B8E7532003FEAE1 /* AppDelegate.swift */,
-				4270D6731B8E7532003FEAE1 /* ViewController.swift */,
-				4270D6751B8E7532003FEAE1 /* Main.storyboard */,
 				4270D6781B8E7532003FEAE1 /* Images.xcassets */,
 				4270D67A1B8E7532003FEAE1 /* LaunchScreen.xib */,
 				4270D66F1B8E7532003FEAE1 /* Supporting Files */,
@@ -110,6 +128,36 @@
 				4270D6861B8E7532003FEAE1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4270D6961B8E7768003FEAE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4270D6751B8E7532003FEAE1 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4270D6971B8E7776003FEAE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4270D6981B8E7782003FEAE1 /* CheckItem.swift */,
+				42DA0D5F1B944C020093F425 /* ListItem.swift */,
+				42DA0D701B9587830093F425 /* DataModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		42DA0D6B1B9562F10093F425 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4270D6931B8E75A2003FEAE1 /* ChecklistViewController.swift */,
+				4270D69E1B8EF246003FEAE1 /* CheckItemViewController.swift */,
+				42DA0D631B944D130093F425 /* ListItemCollectionViewController.swift */,
+				42DA0D651B9452840093F425 /* ListItemViewController.swift */,
+				42DA0D691B94636F0093F425 /* IconPickerViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +204,8 @@
 		4270D6641B8E7532003FEAE1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Ky Nguyen";
 				TargetAttributes = {
 					4270D66B1B8E7532003FEAE1 = {
@@ -212,8 +261,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4270D6741B8E7532003FEAE1 /* ViewController.swift in Sources */,
+				42DA0D601B944C020093F425 /* ListItem.swift in Sources */,
+				42DA0D661B9452840093F425 /* ListItemViewController.swift in Sources */,
+				4270D69B1B8E778E003FEAE1 /* AppConstant.swift in Sources */,
+				42DA0D6A1B94636F0093F425 /* IconPickerViewController.swift in Sources */,
 				4270D6721B8E7532003FEAE1 /* AppDelegate.swift in Sources */,
+				42DA0D711B9587830093F425 /* DataModel.swift in Sources */,
+				42DA0D641B944D130093F425 /* ListItemCollectionViewController.swift in Sources */,
+				4270D69F1B8EF246003FEAE1 /* CheckItemViewController.swift in Sources */,
+				4270D6991B8E7782003FEAE1 /* CheckItem.swift in Sources */,
+				4270D6941B8E75A2003FEAE1 /* ChecklistViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +333,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -342,6 +400,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Checklists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "phuot.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -352,6 +411,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Checklists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "phuot.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -370,6 +430,7 @@
 				);
 				INFOPLIST_FILE = ChecklistsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "phuot.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Checklists.app/Checklists";
 			};
@@ -385,6 +446,7 @@
 				);
 				INFOPLIST_FILE = ChecklistsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "phuot.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Checklists.app/Checklists";
 			};
@@ -409,6 +471,7 @@
 				4270D68D1B8E7532003FEAE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4270D68E1B8E7532003FEAE1 /* Build configuration list for PBXNativeTarget "ChecklistsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +480,7 @@
 				4270D6901B8E7532003FEAE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
